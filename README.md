@@ -4,7 +4,7 @@ int main()
 {
 	char pq;
 	int num1,num2;
-	cout<<"enter an operator:+,-,*,/,%,==,>,<,>=,<=";
+	cout<<"enter an operator:+,-,*,/,%,";
 	cin>>pq;
 	cout<<"enter two numbers:";
 	cin>>num1>>num2;
@@ -25,6 +25,8 @@ int main()
 	case '%' :
 		cout<<num1<<"%"<<num2<<"="<<num1%num2;
 		break;
+ default:cout<<"operator is incorrect ";
+ break;
 	}
 	return 0;
 }
