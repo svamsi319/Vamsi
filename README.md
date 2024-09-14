@@ -25,6 +25,6 @@ int main()
 	case '%' :
 		cout<<num1<<"%"<<num2<<"="<<num1%num2;
 		break;
-	}
+{
 	return 0;
 }
